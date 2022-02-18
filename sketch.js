@@ -49,7 +49,7 @@ function setup(){
 }
 
 function draw() {
-    background(rgb(169,169,169));
+    background("pink");
     edges=createEdgeSprites();
     ball.bounceOff(edges);
 
