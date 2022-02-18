@@ -97,7 +97,7 @@ function draw() {
     }
 
     if(block7.isTouching(ball) && ball.bounceOff(block7)){
-        ball.shapeColor = "green";
+        ball.shapeColor = "salmon";
         music.play();
     }
 
